@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7ACEA3221898D56000B0CDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA3121898D56000B0CDB /* main.m */; };
+		F7ACEA3B21898E36000B0CDB /* SqlServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA3A21898E36000B0CDB /* SqlServerFactory.m */; };
+		F7ACEA3F21898F1A000B0CDB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA3E21898F1A000B0CDB /* User.m */; };
+		F7ACEA4221898F27000B0CDB /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA4121898F27000B0CDB /* Department.m */; };
+		F7ACEA48218990C9000B0CDB /* SqlServerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA47218990C9000B0CDB /* SqlServerUser.m */; };
+		F7ACEA4B2189921D000B0CDB /* AbstractUseAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA4A2189921D000B0CDB /* AbstractUseAccess.m */; };
+		F7ACEA4F21899369000B0CDB /* MySqlFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA4E21899369000B0CDB /* MySqlFactory.m */; };
+		F7ACEA52218993AA000B0CDB /* MySqlUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA51218993AA000B0CDB /* MySqlUser.m */; };
+		F7ACEA5821899624000B0CDB /* AbstractDBFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA5721899624000B0CDB /* AbstractDBFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7ACEA2C21898D56000B0CDB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7ACEA2E21898D56000B0CDB /* AbstractFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractFactory; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ACEA3121898D56000B0CDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7ACEA3921898E36000B0CDB /* SqlServerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqlServerFactory.h; sourceTree = "<group>"; };
+		F7ACEA3A21898E36000B0CDB /* SqlServerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqlServerFactory.m; sourceTree = "<group>"; };
+		F7ACEA3D21898F1A000B0CDB /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F7ACEA3E21898F1A000B0CDB /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F7ACEA4021898F27000B0CDB /* Department.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		F7ACEA4121898F27000B0CDB /* Department.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		F7ACEA4421898FDE000B0CDB /* UserAccessProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserAccessProtocol.h; sourceTree = "<group>"; };
+		F7ACEA452189900B000B0CDB /* DepartmentAccessProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepartmentAccessProtocol.h; sourceTree = "<group>"; };
+		F7ACEA46218990C9000B0CDB /* SqlServerUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqlServerUser.h; sourceTree = "<group>"; };
+		F7ACEA47218990C9000B0CDB /* SqlServerUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqlServerUser.m; sourceTree = "<group>"; };
+		F7ACEA492189921D000B0CDB /* AbstractUseAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractUseAccess.h; sourceTree = "<group>"; };
+		F7ACEA4A2189921D000B0CDB /* AbstractUseAccess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractUseAccess.m; sourceTree = "<group>"; };
+		F7ACEA4C2189931B000B0CDB /* DBFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBFactoryProtocol.h; sourceTree = "<group>"; };
+		F7ACEA4D21899369000B0CDB /* MySqlFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySqlFactory.h; sourceTree = "<group>"; };
+		F7ACEA4E21899369000B0CDB /* MySqlFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySqlFactory.m; sourceTree = "<group>"; };
+		F7ACEA50218993AA000B0CDB /* MySqlUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySqlUser.h; sourceTree = "<group>"; };
+		F7ACEA51218993AA000B0CDB /* MySqlUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySqlUser.m; sourceTree = "<group>"; };
+		F7ACEA5621899624000B0CDB /* AbstractDBFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractDBFactory.h; sourceTree = "<group>"; };
+		F7ACEA5721899624000B0CDB /* AbstractDBFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractDBFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7ACEA2B21898D56000B0CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7ACEA2521898D56000B0CDB = {
+			isa = PBXGroup;
+			children = (
+				F7ACEA3021898D56000B0CDB /* AbstractFactory */,
+				F7ACEA2F21898D56000B0CDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7ACEA2F21898D56000B0CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7ACEA2E21898D56000B0CDB /* AbstractFactory */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7ACEA3021898D56000B0CDB /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F7ACEA3121898D56000B0CDB /* main.m */,
+				F7ACEA55218995B1000B0CDB /* factory */,
+				F7ACEA5421899473000B0CDB /* access */,
+				F7ACEA532189943E000B0CDB /* model */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		F7ACEA532189943E000B0CDB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F7ACEA3D21898F1A000B0CDB /* User.h */,
+				F7ACEA3E21898F1A000B0CDB /* User.m */,
+				F7ACEA4021898F27000B0CDB /* Department.h */,
+				F7ACEA4121898F27000B0CDB /* Department.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F7ACEA5421899473000B0CDB /* access */ = {
+			isa = PBXGroup;
+			children = (
+				F7ACEA452189900B000B0CDB /* DepartmentAccessProtocol.h */,
+				F7ACEA4421898FDE000B0CDB /* UserAccessProtocol.h */,
+				F7ACEA492189921D000B0CDB /* AbstractUseAccess.h */,
+				F7ACEA4A2189921D000B0CDB /* AbstractUseAccess.m */,
+				F7ACEA46218990C9000B0CDB /* SqlServerUser.h */,
+				F7ACEA47218990C9000B0CDB /* SqlServerUser.m */,
+				F7ACEA50218993AA000B0CDB /* MySqlUser.h */,
+				F7ACEA51218993AA000B0CDB /* MySqlUser.m */,
+			);
+			path = access;
+			sourceTree = "<group>";
+		};
+		F7ACEA55218995B1000B0CDB /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				F7ACEA4C2189931B000B0CDB /* DBFactoryProtocol.h */,
+				F7ACEA5621899624000B0CDB /* AbstractDBFactory.h */,
+				F7ACEA5721899624000B0CDB /* AbstractDBFactory.m */,
+				F7ACEA3921898E36000B0CDB /* SqlServerFactory.h */,
+				F7ACEA3A21898E36000B0CDB /* SqlServerFactory.m */,
+				F7ACEA4D21899369000B0CDB /* MySqlFactory.h */,
+				F7ACEA4E21899369000B0CDB /* MySqlFactory.m */,
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7ACEA2D21898D56000B0CDB /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ACEA3521898D56000B0CDB /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				F7ACEA2A21898D56000B0CDB /* Sources */,
+				F7ACEA2B21898D56000B0CDB /* Frameworks */,
+				F7ACEA2C21898D56000B0CDB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = F7ACEA2E21898D56000B0CDB /* AbstractFactory */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7ACEA2621898D56000B0CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "丁玉松";
+				TargetAttributes = {
+					F7ACEA2D21898D56000B0CDB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F7ACEA2921898D56000B0CDB /* Build configuration list for PBXProject "AbstractFactory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7ACEA2521898D56000B0CDB;
+			productRefGroup = F7ACEA2F21898D56000B0CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7ACEA2D21898D56000B0CDB /* AbstractFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7ACEA2A21898D56000B0CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ACEA3B21898E36000B0CDB /* SqlServerFactory.m in Sources */,
+				F7ACEA4B2189921D000B0CDB /* AbstractUseAccess.m in Sources */,
+				F7ACEA48218990C9000B0CDB /* SqlServerUser.m in Sources */,
+				F7ACEA52218993AA000B0CDB /* MySqlUser.m in Sources */,
+				F7ACEA3221898D56000B0CDB /* main.m in Sources */,
+				F7ACEA3F21898F1A000B0CDB /* User.m in Sources */,
+				F7ACEA4221898F27000B0CDB /* Department.m in Sources */,
+				F7ACEA4F21899369000B0CDB /* MySqlFactory.m in Sources */,
+				F7ACEA5821899624000B0CDB /* AbstractDBFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7ACEA3321898D56000B0CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F7ACEA3421898D56000B0CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F7ACEA3621898D56000B0CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7ACEA3721898D56000B0CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7ACEA2921898D56000B0CDB /* Build configuration list for PBXProject "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ACEA3321898D56000B0CDB /* Debug */,
+				F7ACEA3421898D56000B0CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ACEA3521898D56000B0CDB /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ACEA3621898D56000B0CDB /* Debug */,
+				F7ACEA3721898D56000B0CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7ACEA2621898D56000B0CDB /* Project object */;
+}
