@@ -9,13 +9,13 @@
 #import "MySqlUser.h"
 
 @implementation MySqlUser
--(void)insertUser:(User *)user{
+- (void)insertUser:(User *)user {
     NSLog(@"mysql数据库 插入用户");
 }
 
--(User *)gotUser{
+- (User *)gotUser {
     NSLog(@"mysql数据库 获得用户");
-    
+
     return [User new];
 }
 @end

@@ -11,13 +11,13 @@
 
 @implementation SqlServerUser
 
--(void)insertUser:(User *)user{
+- (void)insertUser:(User *)user {
     NSLog(@"sqlserver数据库 插入用户");
 }
 
--(User *)gotUser{
+- (User *)gotUser {
     NSLog(@"sqlserver数据库 获得用户");
-        
+
     return [User new];
 }
 

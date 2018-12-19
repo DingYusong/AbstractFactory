@@ -11,13 +11,12 @@
 
 @implementation MySqlFactory
 
-- (AbstractUseAccess *)createUser{
+- (AbstractUseAccess *)createUser {
     AbstractUseAccess *userAccess = [MySqlUser new];
     return userAccess;
 }
 
-- (void)createDepartment{
-    
+- (void)createDepartment {
 }
 
 @end

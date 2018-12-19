@@ -11,13 +11,12 @@
 
 @implementation SqlServerFactory
 
-- (AbstractUseAccess *)createUser{
+- (AbstractUseAccess *)createUser {
     AbstractUseAccess *userAccess = [SqlServerUser new];
     return userAccess;
 }
 
-- (void)createDepartment{
-    
+- (void)createDepartment {
 }
 
 @end

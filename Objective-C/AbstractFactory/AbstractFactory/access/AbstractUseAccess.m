@@ -10,11 +10,11 @@
 
 @implementation AbstractUseAccess
 
--(void)insertUser:(User *)user{
+- (void)insertUser:(User *)user {
     NSLog(@"插入用户");
 }
 
--(User *)gotUser{
+- (User *)gotUser {
     NSLog(@"获得用户");
     return nil;
 }

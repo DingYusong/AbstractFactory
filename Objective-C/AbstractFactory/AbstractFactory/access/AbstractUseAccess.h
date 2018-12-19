@@ -6,12 +6,12 @@
 //  Copyright © 2018 丁玉松. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "UserAccessProtocol.h"
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AbstractUseAccess : NSObject<UserAccessProtocol>
+@interface AbstractUseAccess : NSObject <UserAccessProtocol>
 
 @end
 

@@ -10,8 +10,8 @@
 
 #import "MySqlFactory.h"
 
-#import "SqlServerFactory.h"
 #import "AbstractUseAccess.h"
+#import "SqlServerFactory.h"
 #import "User.h"
 
 /**
@@ -28,21 +28,19 @@
  数据库修改到mysql，只需要在使用环境里修改工厂的实例化代码，原来的插入和获取用户的逻辑都不需要变化。符合开闭原则。
  
  */
-int main(int argc, const char * argv[]) {
+int main(int argc, const char *argv[]) {
     @autoreleasepool {
         //抽象工厂模式
         User *user = [User new];
         user.name = @"丁丁";
         user.age = 28;
-        
+
         AbstractDBFactory *afactory = [SqlServerFactory new];
-//        AbstractDBFactory *afactory = [MySqlFactory new];
+        //        AbstractDBFactory *afactory = [MySqlFactory new];
 
         AbstractUseAccess *auser = [afactory createUser];
         [auser insertUser:user];
         [auser gotUser];
-    
-        
     }
     return 0;
 }

@@ -9,13 +9,12 @@
 #import "AbstractDBFactory.h"
 
 @implementation AbstractDBFactory
-- (AbstractUseAccess *)createUser{
-    
+- (AbstractUseAccess *)createUser {
+
     return nil;
 }
 
--(void)createDepartment{
-    
+- (void)createDepartment {
 }
 
 @end

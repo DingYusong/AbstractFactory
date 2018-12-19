@@ -6,15 +6,13 @@
 //  Copyright © 2018 丁玉松. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "User.h"
-
+#import <Foundation/Foundation.h>
 
 @protocol UserAccessProtocol <NSObject>
 
--(void)insertUser:(User *)user;
+- (void)insertUser:(User *)user;
 
--(User *)gotUser;
+- (User *)gotUser;
 
 @end
-

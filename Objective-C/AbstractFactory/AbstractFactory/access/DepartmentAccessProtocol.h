@@ -6,16 +6,16 @@
 //  Copyright © 2018 丁玉松. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "Department.h"
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol DepartmentAccessProtocol <NSObject>
 
--(void)insertUser:(Department *)user;
+- (void)insertUser:(Department *)user;
 
--(Department *)gotUser;
+- (Department *)gotUser;
 
 @end
 

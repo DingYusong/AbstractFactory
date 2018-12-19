@@ -11,8 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface User : NSObject
-@property (nonatomic ,copy) NSString *name;
-@property (nonatomic ,assign) NSUInteger age;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, assign) NSUInteger age;
 @end
 
 NS_ASSUME_NONNULL_END
